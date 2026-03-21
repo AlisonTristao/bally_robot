@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Description_1" "50-V, 4.1-A H-bridge motor driver with integrated current regulation & current-sense feedback"
-			(at 0 0 0)
+			(at 0.254 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75,7 +75,7 @@
 			)
 		)
 		(property "Copyright" "Copyright (C) 2023 Ultra Librarian. All rights reserved."
-			(at 0 0 0)
+			(at -4.318 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105,7 +105,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DRV8251ADDAR/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 5.334 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8251ADDAR/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0.508 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
