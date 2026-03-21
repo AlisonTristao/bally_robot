@@ -173,6 +173,627 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DRV8251ADDAR:DRV8251ADDAR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 18.1346 9.1186 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DRV8251ADDAR"
+				(at 17.4952 6.5786 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "50-V, 4.1-A H-bridge motor driver with integrated current regulation & current-sense feedback"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Copyright" "Copyright (C) 2023 Ultra Librarian. All rights reserved."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DRV8251ADDAR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8251ADDAR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "DRV8251ADDAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Mfr_Name" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DRV8251ADDAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "DRV8251ADDAR_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -15.24) (xy 38.1 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38.1 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38.1 -15.24) (xy 38.1 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 2.54 0 0)
+					(length 5.08)
+					(name "IPROPI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -2.54 0)
+					(length 5.08)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 0)
+					(length 5.08)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -7.62 0)
+					(length 5.08)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 0 180)
+					(length 5.08)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 43.18 -2.54 180)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 43.18 -7.62 180)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -10.16 180)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3139,6 +3760,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3630,6 +4376,26 @@
 		)
 		(uuid "07798ed1-4b5d-418b-9d4d-6e3bb87e4488")
 	)
+	(text_box "Motor Esquerdo\n"
+		(exclude_from_sim no)
+		(at 219.71 113.03 0)
+		(size 88.9 62.23)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "3d2feb33-9dd4-482c-b354-7289f8bdba97")
+	)
 	(text_box "Conexão USB\n"
 		(exclude_from_sim no)
 		(at 219.71 63.5 0)
@@ -3649,6 +4415,26 @@
 			(justify top)
 		)
 		(uuid "471bc16e-7d39-4edf-816a-a502fc2453e2")
+	)
+	(text_box "Motor Direito\n"
+		(exclude_from_sim no)
+		(at 312.42 113.03 0)
+		(size 91.44 62.23)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "48961e0e-0339-4e98-b312-3bc12bebc90c")
 	)
 	(text_box "Sensor Direito"
 		(exclude_from_sim no)
@@ -3747,6 +4533,12 @@
 		(uuid "5e4a810a-545d-4139-b62a-11f2b1f3e657")
 	)
 	(junction
+		(at 238.76 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ed28fda-d792-4c55-86e6-3139b16c29c7")
+	)
+	(junction
 		(at 237.49 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3775,6 +4567,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c72259d-13bc-452b-b2d0-e00f69ac2e25")
+	)
+	(junction
+		(at 334.01 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4f362fb-c1e3-4607-ab35-215290771e68")
 	)
 	(junction
 		(at 322.58 95.25)
@@ -3812,6 +4610,14 @@
 		(color 0 0 0 0)
 		(uuid "f2f6933b-aeff-4a33-bf17-fbb2a17294af")
 	)
+	(no_connect
+		(at 281.94 160.02)
+		(uuid "0f902c96-8ddf-4d12-ab50-8d802df8a9f9")
+	)
+	(no_connect
+		(at 377.19 160.02)
+		(uuid "526cb47f-d1bc-47f0-87fd-f375d6cd9cf8")
+	)
 	(wire
 		(pts
 			(xy 345.44 29.21) (xy 345.44 31.75)
@@ -3831,6 +4637,36 @@
 			(type default)
 		)
 		(uuid "0634052d-e89f-4e3e-80f6-dd8036525565")
+	)
+	(wire
+		(pts
+			(xy 334.01 160.02) (xy 336.55 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07983290-9c89-42a0-a05e-a9bc7c3bc053")
+	)
+	(wire
+		(pts
+			(xy 334.01 152.4) (xy 334.01 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d4ca92-2fa6-4db1-93c8-325909a5335f")
+	)
+	(wire
+		(pts
+			(xy 241.3 152.4) (xy 238.76 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0988214f-f5f6-4743-9cc0-c2c93d154de0")
 	)
 	(wire
 		(pts
@@ -3944,6 +4780,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 125.73) (xy 345.44 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d2181c-9795-41a5-a86e-791c3aff0303")
+	)
+	(wire
+		(pts
 			(xy 288.29 48.26) (xy 285.75 48.26)
 		)
 		(stroke
@@ -3961,6 +4807,16 @@
 			(type default)
 		)
 		(uuid "2ad6f187-3e2c-4616-8074-66b015844cce")
+	)
+	(wire
+		(pts
+			(xy 345.44 128.27) (xy 349.25 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da406df-3cd6-4e7c-b3ad-58f020e696eb")
 	)
 	(wire
 		(pts
@@ -3991,6 +4847,16 @@
 			(type default)
 		)
 		(uuid "37f16e95-e60f-4b80-8c95-84f0c71152f5")
+	)
+	(wire
+		(pts
+			(xy 234.95 160.02) (xy 238.76 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fa4296-2221-4250-9730-8b2c780cbded")
 	)
 	(wire
 		(pts
@@ -4204,6 +5070,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 154.94) (xy 293.37 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bed6985-245c-44bc-971d-40693ca34b4a")
+	)
+	(wire
+		(pts
 			(xy 382.27 53.34) (xy 386.08 53.34)
 		)
 		(stroke
@@ -4221,6 +5097,26 @@
 			(type default)
 		)
 		(uuid "5faf24a2-8586-4fb3-9784-13fabc63e3f6")
+	)
+	(wire
+		(pts
+			(xy 250.19 125.73) (xy 250.19 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6001319c-709c-433d-8f99-ee003c146235")
+	)
+	(wire
+		(pts
+			(xy 388.62 154.94) (xy 388.62 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e1808b-5f7a-4c97-b6e2-9258458fdcce")
 	)
 	(wire
 		(pts
@@ -4261,6 +5157,16 @@
 			(type default)
 		)
 		(uuid "6710a5f5-3e1e-499f-9dfc-68d637a39d6b")
+	)
+	(wire
+		(pts
+			(xy 281.94 149.86) (xy 293.37 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4158c8-1ba7-4cb7-a41e-37615c237052")
 	)
 	(wire
 		(pts
@@ -4314,6 +5220,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 160.02) (xy 241.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83367922-29ca-4ac6-9eb7-9d0e4efcafbc")
+	)
+	(wire
+		(pts
 			(xy 120.65 72.39) (xy 123.19 72.39)
 		)
 		(stroke
@@ -4331,6 +5247,16 @@
 			(type default)
 		)
 		(uuid "89fdf564-100e-4d6a-b03b-4b553ec71baf")
+	)
+	(wire
+		(pts
+			(xy 254 128.27) (xy 254 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5b68d9-51f2-40e5-a2aa-6b6584d86790")
 	)
 	(wire
 		(pts
@@ -4414,6 +5340,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 152.4) (xy 238.76 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfc659a-0d6d-49fd-8241-ffef92c4f0a8")
+	)
+	(wire
+		(pts
 			(xy 363.22 38.1) (xy 363.22 36.83)
 		)
 		(stroke
@@ -4454,6 +5390,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 160.02) (xy 334.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5d7c31-0783-4e74-a973-79558645c9dc")
+	)
+	(wire
+		(pts
 			(xy 247.65 74.93) (xy 250.19 74.93)
 		)
 		(stroke
@@ -4481,6 +5427,16 @@
 			(type default)
 		)
 		(uuid "a0f0c447-98df-4f6e-a643-b088aa89c295")
+	)
+	(wire
+		(pts
+			(xy 377.19 149.86) (xy 388.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36500ee-298b-4c26-902e-f8c99e44ed4f")
 	)
 	(wire
 		(pts
@@ -4544,6 +5500,26 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 149.86) (xy 388.62 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2bf855-7502-46b7-aa01-a0cd1be7de9d")
+	)
+	(wire
+		(pts
+			(xy 334.01 160.02) (xy 334.01 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee98aee-aaec-454b-ab69-ac968f474f99")
+	)
+	(wire
+		(pts
 			(xy 259.08 29.21) (xy 259.08 31.75)
 		)
 		(stroke
@@ -4561,6 +5537,16 @@
 			(type default)
 		)
 		(uuid "b24b2d30-2ae2-4dcf-937e-a38603a04a48")
+	)
+	(wire
+		(pts
+			(xy 261.62 125.73) (xy 261.62 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25d64f7-c1e3-44e1-815b-43aeb2ef331c")
 	)
 	(wire
 		(pts
@@ -4584,6 +5570,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 149.86) (xy 293.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5674964-4896-497d-bf65-a75f2f7d6e2e")
+	)
+	(wire
+		(pts
 			(xy 355.6 86.36) (xy 367.03 86.36)
 		)
 		(stroke
@@ -4604,6 +5600,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 154.94) (xy 388.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9168b36-e36a-428f-b703-fe00e729ff7c")
+	)
+	(wire
+		(pts
 			(xy 347.98 48.26) (xy 345.44 48.26)
 		)
 		(stroke
@@ -4611,6 +5617,16 @@
 			(type default)
 		)
 		(uuid "c68f41c6-15c4-40d5-9ca3-7b35db700ae1")
+	)
+	(wire
+		(pts
+			(xy 336.55 152.4) (xy 334.01 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e1a1f5-eace-48b9-90ed-3c046f3c028b")
 	)
 	(wire
 		(pts
@@ -4644,6 +5660,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 128.27) (xy 349.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b041f3-5d69-4e9c-9d84-4fe6f77798dd")
+	)
+	(wire
+		(pts
 			(xy 257.81 24.13) (xy 259.08 24.13)
 		)
 		(stroke
@@ -4664,6 +5690,26 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 128.27) (xy 254 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82a9b9b-8815-4915-8468-d6fbe84699bf")
+	)
+	(wire
+		(pts
+			(xy 238.76 160.02) (xy 238.76 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da90b536-fac2-4fd4-aa5e-e260417ddad0")
+	)
+	(wire
+		(pts
 			(xy 229.87 97.79) (xy 229.87 101.6)
 		)
 		(stroke
@@ -4681,6 +5727,16 @@
 			(type default)
 		)
 		(uuid "df8bcec2-c7a0-4e7e-8db1-23396d9b39bd")
+	)
+	(wire
+		(pts
+			(xy 356.87 125.73) (xy 356.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13a09a1-bd69-4bd2-840d-9d0af2713069")
 	)
 	(wire
 		(pts
@@ -4804,6 +5860,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 154.94) (xy 293.37 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8eb6cf1-647c-4eef-a179-380108cf6f9c")
+	)
+	(wire
+		(pts
 			(xy 322.58 74.93) (xy 322.58 78.74)
 		)
 		(stroke
@@ -4896,6 +5962,28 @@
 			)
 		)
 	)
+	(global_label "IN2_E"
+		(shape input)
+		(at 241.3 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16cd0e35-5c1e-45fc-9639-777c8605c2d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.0534 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape input)
 		(at 123.19 74.93 0)
@@ -4940,6 +6028,50 @@
 			)
 		)
 	)
+	(global_label "OUT1_D"
+		(shape input)
+		(at 365.76 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a69975c-23b6-42c2-a3d6-aa35033a4099")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.76 135.7909 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC1_E"
+		(shape output)
+		(at 256.54 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e5695fc-5792-4dc8-aeba-95a565859c3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 135.7908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RX"
 		(shape output)
 		(at 250.19 72.39 0)
@@ -4958,6 +6090,72 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT1_D"
+		(shape output)
+		(at 377.19 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f8d3b97-00ad-4cac-a400-55cfd1be9ae6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 387.2509 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT2_D"
+		(shape output)
+		(at 377.19 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4462fd6e-133f-441f-89bf-4d3fefce4917")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 387.2509 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN1_D"
+		(shape input)
+		(at 336.55 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "500bc72b-7ccb-4f7b-a334-8f7a7b62c52a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 328.1824 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4984,6 +6182,28 @@
 			)
 		)
 	)
+	(global_label "OUT1_E"
+		(shape output)
+		(at 281.94 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53757d5c-e151-4a4d-8229-c72938f4d7c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.8799 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape input)
 		(at 245.11 95.25 180)
@@ -4997,6 +6217,28 @@
 		(uuid "55ac75f0-55cd-4da1-a798-2d0c2be9a11f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 239.2824 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC2_D"
+		(shape output)
+		(at 354.33 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dc807fb-e81d-4d28-8554-f8175be98573")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 354.33 135.9118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,6 +6292,72 @@
 			)
 		)
 	)
+	(global_label "OUT2_E"
+		(shape output)
+		(at 281.94 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "684540ef-53c8-4b04-8200-bfc3d030485f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.8799 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT2_D"
+		(shape input)
+		(at 363.22 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a1e754a-3b9a-4c6a-b13f-7c1ebd0854cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 363.22 135.7909 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i_E"
+		(shape output)
+		(at 234.95 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d565d79-2b7d-4ad4-8e9e-cb418e67ecba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.2434 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 123.19 72.39 0)
@@ -5094,6 +6402,94 @@
 			)
 		)
 	)
+	(global_label "IN2_D"
+		(shape input)
+		(at 336.55 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fc91648-e3e1-40e7-bf0e-8de7a944ad30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 328.1824 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT1_E"
+		(shape input)
+		(at 270.51 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92b5e59e-51d3-4010-a2fe-6c0bdcdb5cb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.51 135.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC2_E"
+		(shape output)
+		(at 259.08 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9786131f-4ea2-49db-a6ec-2eba99fb99ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.08 135.7908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i_D"
+		(shape output)
+		(at 330.2 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2ea268a-8082-4131-afcc-a00a747d37cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 324.3724 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "strp_1"
 		(shape output)
 		(at 237.49 25.4 180)
@@ -5107,6 +6503,28 @@
 		(uuid "aa5a5f05-cca8-4cc3-8de0-8a7963b42d07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.6387 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC1_D"
+		(shape output)
+		(at 351.79 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df3279f0-df2f-48ce-96aa-7bf44bba5924")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 351.79 135.9118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,6 +6569,50 @@
 		(uuid "e3015a65-416f-4754-a0b8-c356d7ee36c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 374.9912 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN1_E"
+		(shape input)
+		(at 241.3 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e898bdde-34eb-4fd6-8874-115dbe605228")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.0534 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT2_E"
+		(shape input)
+		(at 267.97 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f434b291-82c3-4d6e-91b0-7a220caed7bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.97 135.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,6 +6831,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 334.01 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "043977fc-e55e-4727-927b-ff00023d79e8")
+		(property "Reference" "#PWR021"
+			(at 334.01 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12f906f0-bac0-4501-ae04-00a1f816171e")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 281.94 80.01 0)
 		(unit 1)
@@ -5498,6 +7025,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 293.37 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08080fe7-5567-42ea-94f8-21b860c07dd9")
+		(property "Reference" "#PWR032"
+			(at 293.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 296.672 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 293.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2b8af5d-632b-4972-ab34-9e87e0ac51f2")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 322.58 99.06 0)
 		(unit 1)
@@ -5557,6 +7149,71 @@
 			(project "neftis"
 				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 334.01 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1827177e-a6d3-414f-bed1-695b3fe59732")
+		(property "Reference" "#PWR020"
+			(at 334.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 329.946 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 334.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56d6abdd-c570-4c6a-8a8f-c067782a0565")
+		)
+		(instances
+			(project ""
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5909,6 +7566,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 270.51 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a84cb5c-7030-4dfb-afaf-9b433ecc4d5f")
+		(property "Reference" "Conn_01x02_Pin1"
+			(at 275.59 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MOTOR_D"
+			(at 268.986 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 270.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 270.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ddeb431-4cce-40c1-ad7b-d5e5b460acd1")
+		)
+		(pin "1"
+			(uuid "c24575f9-e2af-441e-b51b-836171454410")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "Conn_01x02_Pin1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 363.22 38.1 0)
 		(unit 1)
@@ -6039,6 +7764,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 388.62 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38e84463-e9eb-4cbf-888e-de2d4b0e4888")
+		(property "Reference" "#PWR018"
+			(at 388.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 391.922 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 388.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cb96d84-afae-48cd-b598-376b674d07a7")
+		)
+		(instances
+			(project ""
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a6b7ade-7d20-49ab-9e38-8869aaa3b745")
+		(property "Reference" "#PWR028"
+			(at 238.76 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a66db384-a902-47ca-99af-1581b7c46129")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Opamp_Dual")
 		(at 281.94 101.6 90)
 		(unit 3)
@@ -6158,6 +8013,71 @@
 				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
 					(reference "LM358")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 293.37 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c019b1d-fa77-42b6-aca6-3b223488662e")
+		(property "Reference" "#PWR033"
+			(at 293.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 294.64 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c0a8a63-3557-457b-81d2-28b00e0deebd")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR033")
+					(unit 1)
 				)
 			)
 		)
@@ -6621,7 +8541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a9aca38-bf52-41bd-94a5-f111fa4e19d6")
-		(property "Reference" "Conn_01x02_Pin"
+		(property "Reference" "Conn_01x02_Pin2"
 			(at 232.918 76.454 0)
 			(effects
 				(font
@@ -6674,7 +8594,7 @@
 		(instances
 			(project ""
 				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
-					(reference "Conn_01x02_Pin")
+					(reference "Conn_01x02_Pin2")
 					(unit 1)
 				)
 			)
@@ -6959,6 +8879,271 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 388.62 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ad5162f-543b-4e61-ad4f-d0aa03c693ad")
+		(property "Reference" "#PWR019"
+			(at 388.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 389.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 388.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00e28c44-50e8-491f-ba88-87f4919fe491")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DRV8251ADDAR:DRV8251ADDAR")
+		(at 238.76 160.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cf8eb63-1fbf-406f-8aeb-daabff5f10fa")
+		(property "Reference" "DRV8251ADDAR1"
+			(at 261.62 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Ponte_H_E"
+			(at 261.112 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:ponte_H"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "50-V, 4.1-A H-bridge motor driver with integrated current regulation & current-sense feedback"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Copyright" "Copyright (C) 2023 Ultra Librarian. All rights reserved."
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DRV8251ADDAR/Texas+Instruments/view-part/?ref=eda"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8251ADDAR/Texas+Instruments/view-part/?ref=snap"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DRV8251ADDAR"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Mfr_Name" "Texas Instruments"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DRV8251ADDAR"
+			(at 238.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "360d9f0e-3efb-4002-ac48-df15e321f6b8")
+		)
+		(pin "1"
+			(uuid "72db0dba-4f06-4954-bbc4-d0fc905452be")
+		)
+		(pin "3"
+			(uuid "9f927a0f-1f9a-4509-a91c-f780edf8a4aa")
+		)
+		(pin "4"
+			(uuid "21e380b3-b336-4cca-8f0e-c3bbb7930573")
+		)
+		(pin "2"
+			(uuid "c28a2508-a53b-44e8-bac7-bfc7cb1fd60c")
+		)
+		(pin "9"
+			(uuid "08db70c4-fcfe-4044-a53f-0a1747263cb9")
+		)
+		(pin "8"
+			(uuid "34392ca7-8d0d-4464-86b6-0ef70c6d33a2")
+		)
+		(pin "5"
+			(uuid "7d160f3b-c73e-47b8-a643-d8156681f0ee")
+		)
+		(pin "6"
+			(uuid "72cb492e-ec52-429c-92f8-2ea29df36832")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "DRV8251ADDAR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC547")
 		(at 320.04 83.82 0)
 		(unit 1)
@@ -7028,6 +9213,141 @@
 			(project "neftis"
 				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 250.19 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ec6eb25-0b3a-4f38-a3c3-b06bcaf1fbce")
+		(property "Reference" "#PWR029"
+			(at 250.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 246.126 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "445892c6-8b78-4984-9dfa-c74cf034a0a1")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63937dc8-bd0a-4694-8e41-9271585144f4")
+		(property "Reference" "R11"
+			(at 241.3 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 241.3 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 236.982 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "969e4292-e53e-47fb-abea-4a29d25cf33a")
+		)
+		(pin "2"
+			(uuid "0cf76c11-92d5-47da-919f-25683c0daf01")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7353,6 +9673,74 @@
 			(project "neftis"
 				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 365.76 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "794bdf00-2bd9-4cfb-95d4-284823797372")
+		(property "Reference" "Conn_01x02_Pin3"
+			(at 370.84 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MOTOR_D"
+			(at 364.236 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 365.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 365.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "828778f2-d3bb-4843-8ff1-f4c2d47a30ef")
+		)
+		(pin "1"
+			(uuid "2d3f6ea8-d6c9-428b-bd49-8a8c70b2c9f1")
+		)
+		(instances
+			(project ""
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "Conn_01x02_Pin3")
 					(unit 1)
 				)
 			)
@@ -7820,6 +10208,71 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 238.76 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97e78593-39ed-4999-9f93-38778a9949a4")
+		(property "Reference" "#PWR025"
+			(at 238.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 234.696 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dc70854-a85d-4f30-ae05-14e744df64ea")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 222.25 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8226,6 +10679,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 261.62 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac72aaa4-cd96-4fde-b135-8dad120dbed7")
+		(property "Reference" "#PWR031"
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bd430e9-e58f-418e-a957-d645943be1bb")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 351.79 31.75 270)
 		(unit 1)
@@ -8287,6 +10805,71 @@
 			(project "neftis"
 				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 345.44 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aff2668e-1f3a-49f2-9f06-50eb3b5b4dd5")
+		(property "Reference" "#PWR022"
+			(at 345.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 341.376 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 345.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7735cea2-fea8-46d7-9400-bb668ac482c1")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8365,7 +10948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7a01854-e334-48a3-a3dd-817077c69036")
-		(property "Reference" "USB-B-S-X-X-TH"
+		(property "Reference" "USB-B-S-X-X-TH1"
 			(at 255.016 85.598 0)
 			(effects
 				(font
@@ -8553,7 +11136,7 @@
 		(instances
 			(project ""
 				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
-					(reference "USB-B-S-X-X-TH")
+					(reference "USB-B-S-X-X-TH1")
 					(unit 1)
 				)
 			)
@@ -8952,6 +11535,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 259.08 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb90697c-ec17-4868-adc3-c5dc3cba7cec")
+		(property "Reference" "Conn_01x04_Pin1"
+			(at 266.7 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ENC_D"
+			(at 258.064 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 259.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 259.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efdf3bb2-ee1c-4959-936a-1a259fc9e311")
+		)
+		(pin "1"
+			(uuid "73475c2a-169d-4175-a1d2-2757847b1bf5")
+		)
+		(pin "4"
+			(uuid "a12ffe1b-9992-4612-906c-f1407eccb7fd")
+		)
+		(pin "3"
+			(uuid "67c273e9-5787-4f19-9f76-0bdee0c1761e")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "Conn_01x04_Pin1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Proximity:QRE1113GR")
 		(at 374.65 50.8 0)
 		(mirror y)
@@ -9305,6 +11962,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 354.33 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e42e054a-0229-46e6-b5bd-5e11e209c245")
+		(property "Reference" "Conn_01x04_Pin2"
+			(at 361.95 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ENC_D"
+			(at 353.314 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 354.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 354.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc64a053-448c-4a42-8444-1e3ab55fb288")
+		)
+		(pin "1"
+			(uuid "bd8ecbb2-fbb2-4307-9a0c-67129144428f")
+		)
+		(pin "4"
+			(uuid "71fac266-93b5-4a1f-af1e-060c2c80ec5e")
+		)
+		(pin "3"
+			(uuid "3e95774f-a674-4bd7-8ac2-dfd13e49bd06")
+		)
+		(instances
+			(project ""
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "Conn_01x04_Pin2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 356.87 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e584d5d7-711f-4f12-91e2-510f060a32ab")
+		(property "Reference" "#PWR023"
+			(at 356.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 356.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86cab09c-37d5-40ba-9f34-4e3d014aa5f8")
+		)
+		(instances
+			(project "neftis"
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 316.23 54.61 0)
 		(unit 1)
@@ -9635,6 +12431,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 334.01 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6cc2103-a547-4479-9ac4-563b94b64715")
+		(property "Reference" "R10"
+			(at 336.55 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 336.55 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 332.232 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 334.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf11eb7b-575c-41a4-bb43-4a384fca3b47")
+		)
+		(pin "2"
+			(uuid "9bc1c77a-dfec-405e-97e1-0218b87e9e8c")
+		)
+		(instances
+			(project ""
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 237.49 86.36 0)
 		(unit 1)
@@ -9694,6 +12560,206 @@
 			(project ""
 				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DRV8251ADDAR:DRV8251ADDAR")
+		(at 334.01 160.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe031035-c874-4331-8e6c-7bf3856fb135")
+		(property "Reference" "DRV8251ADDAR2"
+			(at 356.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Ponte_H_D"
+			(at 356.362 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:ponte_H"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "50-V, 4.1-A H-bridge motor driver with integrated current regulation & current-sense feedback"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Copyright" "Copyright (C) 2023 Ultra Librarian. All rights reserved."
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DRV8251ADDAR/Texas+Instruments/view-part/?ref=eda"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8251ADDAR/Texas+Instruments/view-part/?ref=snap"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DRV8251ADDAR"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Mfr_Name" "Texas Instruments"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DRV8251ADDAR"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "024532cc-4e9a-483c-8882-ad5e51784536")
+		)
+		(pin "1"
+			(uuid "4b0067bc-5101-47a7-9140-f4758786edfd")
+		)
+		(pin "3"
+			(uuid "12fdac6b-bf02-4334-b782-cdeedebd0165")
+		)
+		(pin "4"
+			(uuid "a080fdd0-0cf8-4625-a118-17aafe0cca88")
+		)
+		(pin "2"
+			(uuid "d47e9c15-d552-4b49-b151-86f1def5f4ea")
+		)
+		(pin "9"
+			(uuid "d4ce9a38-e98a-44dc-b27f-4842138abdfc")
+		)
+		(pin "8"
+			(uuid "8866aad7-5c78-41c3-9cf7-c4ab54722af9")
+		)
+		(pin "5"
+			(uuid "02c4599f-5699-456e-9bc3-ccb6eacdedfe")
+		)
+		(pin "6"
+			(uuid "32f62b75-a398-4e34-b3c2-27c5d9c06754")
+		)
+		(instances
+			(project ""
+				(path "/56c4d1ac-2b28-4c47-9c0b-b837ed34c3b9"
+					(reference "DRV8251ADDAR2")
 					(unit 1)
 				)
 			)
