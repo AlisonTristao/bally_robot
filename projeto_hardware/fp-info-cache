@@ -1,4 +1,4 @@
-26534489199041230
+26536263508155019
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70230,6 +70230,13 @@ MUX
 0
 16
 16
+Library
+MagneticBuzzer_CUI_CMT-8504-100-SMT_3d
+magnetic transducer buzzer, 5V, SPL of 100 dB at 10 cm, https://www.cuidevices.com/product/resource/pdf/cmt-8504-100-smt-tr.pdf
+CMT 8504
+0
+4
+4
 Library
 Micro_SD_card
 
