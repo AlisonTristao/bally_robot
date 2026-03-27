@@ -1,4 +1,4 @@
-26536263508155019
+26538038081847500
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70223,6 +70223,13 @@ LM358
 0
 8
 8
+Library
+MEM2075-00-140-01-A_GCT
+
+MEM2075-00-140-01-A 
+0
+15
+15
 Library
 MUX
 
